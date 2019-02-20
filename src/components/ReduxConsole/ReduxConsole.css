@@ -1,0 +1,19 @@
+.ReduxConsole{
+    width: 98%;
+    margin:auto;
+    min-height: 30vh;
+    /*align-items: center;
+    justify-content: center; */
+    /* position: fixed;
+     */
+}
+.ConsoleText{
+    color: white;
+}
+.ConsoleHeader{
+    font-size: calc(10px + 2vmin);
+}
+.ConsoleMain{
+    font-style: italic;
+    font-size: calc(2px + 2vmin);
+}
