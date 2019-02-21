@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import ReduxConsole from './components/ReduxConsole/ReduxConsole';
+import ReduxConsoleContainer from './containers/ReduxConsoleContainer';
 
 class App extends Component {
   render() {
@@ -25,7 +25,7 @@ class App extends Component {
 
         </main>
         <footer>
-          <ReduxConsole />
+          <ReduxConsoleContainer />
         </footer>
       </div>
     );
